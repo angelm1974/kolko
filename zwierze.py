@@ -18,10 +18,8 @@ class Lew(Zwierze):
         self.iloscKlow = 4
 
 
-Dumbo = Slon()
-Dumbo.nazwa = "Słonik Dumbo"
-Dumbo.waga = 300
-Dumbo.wiek = 400
+Dumbo = Slon("Słonik Dumbo",400,300)
+
 
 Simba = Lew()
 Simba.iloscKlow = 3
