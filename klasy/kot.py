@@ -7,7 +7,7 @@ class Kot:
         self.dlugosc = 0
         self.wysokosc = 0
         self.wiek = 0
-        self.waga = 0
+        self.waga = 3
 
     def miauczenie():
         print("Miau!")
@@ -20,6 +20,7 @@ class Kot:
 
     def jedzenie(self):
         self.waga += 10
+        print(self.waga)
         print('kot dobrze zjadł')
 
     def drapanie(self):
