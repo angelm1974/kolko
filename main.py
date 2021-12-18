@@ -17,3 +17,4 @@ def drukujPlansze(pole):
     print(f"{pole['1']}|{pole['2']}|{pole['3']}")
 
 drukujPlansze(PlanszaDoGry)
+#Testowy komentarz
