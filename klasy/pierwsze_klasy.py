@@ -1,3 +1,4 @@
+from kot import Kot
 # class MojaKlasa:
 #     def wyswietl(x):
 #         return 'Witaj swiecie'
@@ -21,3 +22,10 @@ wtc.podstawa_b=200
 wtc.wysokosc_h=400
 print(wtc.Objetosc())
 
+Garfield=Kot()
+Garfield.imie='Garfield'
+Garfield.wiek=20
+Garfield.waga=9
+Garfield.jedzenie()
+Garfield.drapanie()
+Garfield.spanie()
