@@ -30,8 +30,15 @@ class Hybryda(Lew,Papuga):
         
         
         
-  hyb=Hybryda()   
-  hyb.   
+hyb=Hybryda()   
+hyb.iloscKlow=4
+hyb.nazwa="HHYBR"
+hyb.waga=100
+hyb.iloscPior=300
+hyb.wiek=34
+  
+hyb.podaj_dane()
+  
         
         
         
