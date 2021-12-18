@@ -17,7 +17,43 @@ class Lew(Zwierze):
     def __init__(self):
         self.iloscKlow = 4
 
+class Papuga(Zwierze):
+    def __init__(self,nazwa,dlg_skrzydel):
+        self.iloscPior = 4000
+        self.nazwa=nazwa
+        self.dlg_skrzydel =dlg_skrzydel
 
+
+class Hybryda(Lew,Papuga):
+    pass
+        
+        
+        
+        
+  hyb=Hybryda()   
+  hyb.   
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 Dumbo = Slon("Słonik Dumbo",400,300)
 
 
